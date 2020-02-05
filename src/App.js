@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './google.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
@@ -26,7 +26,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
+        
         <img src={logo} className="App-logo" alt="logo" />
 
         <Table >
